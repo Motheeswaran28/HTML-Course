@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Product Information Form</title>
+</head>
+<body>
+
+<h2>Enter Product Information:</h2>
+
+<form>
+<table border="1" cellpadding="10" cellspacing="0">
+
+    <tr>
+        <td>Product Name</td>
+        <td><input type="text" placeholder="Enter Product Name"></td>
+    </tr>
+
+    <tr>
+        <td>Brand Name</td>
+        <td><input type="text" placeholder="Enter Brand"></td>
+    </tr>
+
+    <tr>
+        <td>Category</td>
+        <td>
+            <select>
+                <option>Select Category</option>
+                <option>Food</option>
+                <option>Electronics</option>
+                <option>Clothing</option>
+                <option>Stationery</option>
+            </select>
+        </td>
+    </tr>
+
+    <tr>
+        <td>Price</td>
+        <td><input type="number" placeholder="Enter Price"></td>
+    </tr>
+
+    <tr>
+        <td>Quantity</td>
+        <td><input type="number" placeholder="Enter Quantity"></td>
+    </tr>
+
+    <!-- <tr>
+        <td>Size</td>
+        <td>
+            <input type="text" placeholder="Enter Size"> kg
+        </td>
+    </tr> -->
+
+    <tr>
+        <td>Manufacturing Date</td>
+        <td><input type="date"></td>
+    </tr>
+
+    <tr>
+        <td>Expiry Date</td>
+        <td><input type="date"></td>
+    </tr>
+
+    <tr>
+        <td>Availability</td>
+        <td>
+            <input type="radio" name="available"> In Stock
+            <input type="radio" name="available"> Out of Stock
+        </td>
+    </tr>
+
+    <tr>
+        <td>Quality</td>
+        <td>
+            <input type="radio" name="quality"> First Quality <br><br>
+
+            <input type="radio" name="quality"> Second Quality <br><br>
+
+            <input type="radio" name="quality"> Third Quality
+        </td>
+    </tr>
+
+    <tr>
+        <td>Supplier Email</td>
+        <td><input type="email" placeholder="Enter Email"></td>
+    </tr>
+
+    <tr>
+        <td>Phone Number</td>
+        <td><input type="tel" placeholder="Enter Phone Number"></td>
+    </tr>
+
+    <tr>
+        <td>Product Description</td>
+        <td>
+            <textarea rows="4" cols="30" placeholder="Enter Description"></textarea>
+        </td>
+    </tr>
+
+    <tr>
+        <td colspan="2" align="center">
+            <input type="submit" value="Submit">
+            <input type="reset" value="Reset">
+        </td>
+    </tr>
+
+</table>
+</form>
+
+</body>
+</html>
